@@ -1,0 +1,138 @@
+body{
+  margin: 0; /* don't forget!!!*/
+  font-family: Roboto;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  padding-left: 40px;
+  /*padding-right: 40px;*/
+  text-align: right;
+  position: relative;
+  background-color: grey;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav .homelink{
+  position: absolute;
+  left: 40px;
+  vertical-align: middle;
+  padding-top:20px;
+}
+ nav ul {
+  	display: inline-block;
+  	padding-right: 100px;
+  	list-style: none;
+  }
+
+nav li{
+  	display: inline;
+  	padding: 5px;
+  }
+
+.container{
+  width:600px;
+  height:auto;
+  margin:auto;
+  position:absolute;
+  left:20%;
+
+}
+.search {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+form{
+  width:auto;
+}
+
+input[type="text"], input[type="submit"] {
+  display: inline;
+  color:grey;
+  width:300px;
+  height:24px;
+  font-size:16px;
+  border:1px solid grey;
+  border-radius:5px;
+}
+
+
+.search .magnify-icon{
+  width:26px;
+  height: auto;
+  vertical-align: bottom;
+  border:1px solid grey;
+  border-radius:5px;
+}
+
+.page_results{
+  display: inline-block;
+  font-size: 0;
+  color: grey;
+  margin-bottom: 26px;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+
+}
+/*.nav_results a{
+  color:grey;
+
+}*/
+
+/*.nav_results .back_button{
+  font-size: 16px;
+  border:1px solid grey;
+  border-radius:3px;
+  padding: 8px 15px;
+
+}*/
+.page_results .page_button{
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 25px;
+  border-radius: 5px
+}
+
+.page_results .page_display{
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+}
+
+.results{
+  padding-top: 50px;
+  background-color: yellow;
+}
+.listings{
+  position: relative;
+  padding: 0px;
+  list-style: none;
+
+
+}
+.listings a {
+    text-decoration: none;
+    color: blue;
+    font-style: bold;
+    padding-left: 15px;
+}
+
+.listing{
+}
+.listing-date {
+    color: grey;
+}
+.listing-location{
+    padding-left: 15px;
+    color:grey;
+}
